@@ -1,0 +1,120 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background: darkred;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 28px 100px;
+    border-bottom: 4px solid ghostwhite;
+}
+
+h2 {
+    user-select: none;
+    font-size: 26px;
+    font-weight: 700;
+    color: ghostwhite;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: ghostwhite;
+    padding: 8px 16px;
+    margin: 0 20px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+header button {
+    outline: none;
+    padding: 4px 16px;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: .5px;
+    cursor: pointer;
+    border: 3px solid black;
+    background: rgb(202, 202, 202);
+    color: black;
+    border-radius: 4px;
+}
+
+.content {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-content {
+    max-width: 1200px;
+    color: ghostwhite;
+    text-align: center;
+}
+
+.main-content h1 {
+    font-size: 3.5rem;
+}
+
+.main-content p {
+    margin-top: 20px;
+    font-size: 18px;
+    max-width: 600px;
+}
+
+.main-content button {
+    margin-top: 22px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    padding: 12px 28px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 600;
+    letter-spacing: .5px;
+    background: burlywood;
+    color: black;
+}
+
+footer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.anchors {
+    display: flex;
+    flex-direction: column;
+}
+
+.partnership, .about, .support, a {
+    text-align: center;
+    font-size: 14px;
+    color: ghostwhite;
+    padding: 4px;
+    margin-bottom: 4px;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h3 {
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
